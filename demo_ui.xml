@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garmin-ui-state version="1.0">
+  <metadata>
+    <app-name>Garmin App</app-name>
+    <device-model>fenix7</device-model>
+    <screen-width>260</screen-width>
+    <screen-height>260</screen-height>
+    <timestamp>2025-09-10T16:07:40.633552Z</timestamp>
+    <capture-source>debug_logs</capture-source>
+  </metadata>
+  <screen>
+    <background-color>#000000</background-color>
+    <scale-factor>1.0</scale-factor>
+    <center-x>130</center-x>
+    <center-y>130</center-y>
+  </screen>
+  <elements>
+    <element id="minutemarker_2" type="circle">
+      <position x="235" y="130"/>
+      <radius>2.0</radius>
+      <fill-color>#ff0000</fill-color>
+      <z-index>5</z-index>
+      <visible>true</visible>
+      <opacity>1.0</opacity>
+    </element>
+    <element id="jailboteye_3" type="rect">
+      <position x="110" y="125"/>
+      <dimensions width="8" height="3"/>
+      <fill-color>#00ff00</fill-color>
+      <z-index>8</z-index>
+      <visible>true</visible>
+      <opacity>1.0</opacity>
+    </element>
+    <element id="jailboteye_4" type="rect">
+      <position x="150" y="125"/>
+      <dimensions width="8" height="3"/>
+      <fill-color>#00ff00</fill-color>
+      <z-index>8</z-index>
+      <visible>true</visible>
+      <opacity>1.0</opacity>
+    </element>
+    <element id="hournumber_1" type="text">
+      <position x="130" y="40"/>
+      <text-content>12</text-content>
+      <font-family>large</font-family>
+      <font-size>24</font-size>
+      <font-weight>bold</font-weight>
+      <text-anchor>middle</text-anchor>
+      <fill-color>#00ff00</fill-color>
+      <z-index>10</z-index>
+      <visible>true</visible>
+      <opacity>1.0</opacity>
+    </element>
+  </elements>
+</garmin-ui-state>

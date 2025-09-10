@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "app_name": "Garmin App",
+    "device_model": "fenix7",
+    "screen_width": 260,
+    "screen_height": 260,
+    "timestamp": "2025-09-10T16:07:40.743519Z",
+    "capture_source": "debug_logs"
+  },
+  "screen": {
+    "background_color": "#000000",
+    "scale_factor": 1.0,
+    "center_x": 130,
+    "center_y": 130
+  },
+  "elements": [
+    {
+      "id": "hournumber_1",
+      "type": "text",
+      "x": 130,
+      "y": 40,
+      "text_content": "12",
+      "font_family": "large",
+      "font_size": 24,
+      "font_weight": "bold",
+      "fill_color": "#00ff00",
+      "text_anchor": "middle",
+      "z_index": 10,
+      "visible": true,
+      "opacity": 1.0
+    },
+    {
+      "id": "minutemarker_2",
+      "type": "circle",
+      "x": 235,
+      "y": 130,
+      "radius": 2.0,
+      "fill_color": "#ff0000",
+      "z_index": 5,
+      "visible": true,
+      "opacity": 1.0
+    },
+    {
+      "id": "jailboteye_3",
+      "type": "rect",
+      "x": 110,
+      "y": 125,
+      "width": 8,
+      "height": 3,
+      "fill_color": "#00ff00",
+      "z_index": 8,
+      "visible": true,
+      "opacity": 1.0
+    },
+    {
+      "id": "jailboteye_4",
+      "type": "rect",
+      "x": 150,
+      "y": 125,
+      "width": 8,
+      "height": 3,
+      "fill_color": "#00ff00",
+      "z_index": 8,
+      "visible": true,
+      "opacity": 1.0
+    }
+  ],
+  "state": {}
+}

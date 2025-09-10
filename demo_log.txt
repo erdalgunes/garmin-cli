@@ -1,0 +1,9 @@
+[Jailbot] INFO: DebugLogger initialized
+[Jailbot] RENDER: Screen(260x260) Center(130,130)
+[Jailbot] RENDER: HourNumber(12) Position(130,40) Font(LARGE) Color(0x00ff00)
+[Jailbot] RENDER: MinuteMarker(30) Position(235,130) Size(2.0) Color(0xff0000)
+[Jailbot] RENDER: JailbotEye(LEFT) Position(110,125) Size(8x3) Color(0x00ff00)
+[Jailbot] RENDER: JailbotEye(RIGHT) Position(150,125) Size(8x3) Color(0x00ff00)
+[Jailbot] STATE: CurrentTime(12:30) DisplayHour(12) MinuteAngle(90°)
+[Jailbot] DEBUG: Memory: 15% (19000/126792)
+[Jailbot] DEBUG: Battery: 85.0%

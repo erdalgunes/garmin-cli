@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "garmin-dev-cli"
+version = "0.1.0"
+description = "Micro-kernel CLI for Garmin Connect IQ development"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Claude", email = "claude@anthropic.com" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+]
+keywords = ["garmin", "connectiq", "watchface", "cli", "development"]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/anthropics/garmin-dev-cli"
+Documentation = "https://github.com/anthropics/garmin-dev-cli/docs"
+Repository = "https://github.com/anthropics/garmin-dev-cli.git"
+Issues = "https://github.com/anthropics/garmin-dev-cli/issues"
+
+[project.scripts]
+garmin-dev = "garmin_dev.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/garmin_dev"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/tests",
+    "/docs",
+    "README.md",
+    "LICENSE",
+]
